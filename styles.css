@@ -1,0 +1,77 @@
+:root {
+  --primary-color: rgb(0, 128, 128, 0.9);
+  --secondary-color: rgb(255,255,255, 0.8);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#quote-box {
+  background-color: var(--secondary-color);
+  padding: 3rem;
+  margin: auto;
+  max-width: 700px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.text-box {
+  display: flex;
+  height: auto;
+  font-style: italic;
+}
+
+i {
+  color: var(--primary-color);
+  font-size: 1.9rem;
+  padding: 0px 10px 0px 0px;
+}
+
+#text {
+  font-size: 25px;
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+
+.author {
+  text-align: right;
+  margin-bottom: 2rem;
+}
+
+#author {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.twitter-icon {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+#new-quote {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  font-size: large;
+  border: none;
+  padding: 5px;
+}
